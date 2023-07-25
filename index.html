@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="count-cta">
+        <p class="pple-countered">People countered :</p>
+        <p class="count">0</p>
+        <button class="count-btn">Count</button>
+        <div class="final-section-cta">
+          <p class="time-end-txt">Time to end</p>
+          <input type="time" class="time-end" />
+          <button class="save-btn">Save</button>
+        </div>
+      </div>
+      <div class="saved-cta"><p class="saved-input"></p></div>
+    </div>
+
+    <div class="count-info">
+      <p class="title">Title :</p>
+      <input
+        type="text"
+        class="title-input"
+        placeholder="eg. Counting passengers"
+      />
+      <p class="time-txt">Time to count</p>
+      <div class="time-input">
+        <input type="time" class="time-start" />
+      </div>
+      <button class="start-btn">Start</button>
+    </div>
+    <button class="reset">RESET</button>
+    <script src="index.js"></script>
+  </body>
+</html>
